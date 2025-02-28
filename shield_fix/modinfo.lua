@@ -17,7 +17,7 @@ meta =
     type = "mod",
 
     -- Description of your mod that will be displayed to players
-    description = "Rebalancing energy to shield converting sub modules to less ridiculous numbers. The bonuses are summed instead of multiplying. Also decreased maximum bonus to 60%",
+    description = "Rebalancing energy to shield converting sub modules to less ridiculous numbers. The bonuses are summed instead of multiplying. Also decreased maximum bonus to 60%. Code of mods can be found in https://github.com/darklab8/av-mods",
 
     -- Insert all authors into this list
     authors = {"Darkwind"},
@@ -26,7 +26,7 @@ meta =
     -- This will be used to check for unmet dependencies or incompatibilities, and to check compatibility between clients and dedicated servers with mods.
     -- If a client with an unmatching major or minor mod version wants to log into a server, login is prohibited.
     -- Unmatching patch version still allows logging into a server. This works in both ways (server or client higher or lower version).
-    version = "1.0.4",
+    version = "1.0.5",
 
     -- If your mod requires dependencies, enter them here. The game will check that all dependencies given here are met.
     -- Possible attributes:
