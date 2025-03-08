@@ -6,12 +6,12 @@ include ("galaxy")
 function FighterUT.getMaxDurability(tech)
     local distance = Balancing_GetSectorByTechLevel(tech)
 
-    local hp0 = 350
-    local hp90 = 300
-    local hp150 = 250
-    local hp250 = 200
-    local hp400 = 150
-    local hp500 = 100
+    local hp0 = 250
+    local hp90 = 200
+    local hp150 = 150
+    local hp250 = 100
+    local hp400 = 75
+    local hp500 = 50
 
     local maxDurability = 200
     if distance < 90 then
